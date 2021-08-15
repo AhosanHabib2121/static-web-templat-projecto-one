@@ -1,0 +1,272 @@
+/*--------------------------------------------------------------------------------------
+							Default style.css use start here
+---------------------------------------------------------------------------------------*/
+html{
+	scroll-behavior: smooth;
+}
+body{
+	/*font-family: 'Handlee', cursive;*/
+	font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', sans-serif; 
+}
+
+/*--navbar>css use start here--*/
+.icon-style{
+	background-color: #A1D123;
+	color: #f9ffe4;
+	padding: 10px;
+	margin: 12px 0;
+}
+
+/*--------------------------------------------------------------------------------------
+							Default style.css use end here
+---------------------------------------------------------------------------------------*/
+/*--header>css use start here--*/
+header{
+	background: linear-gradient(#1C975D91,#79D28394),url(../img/banner.jpg);
+	background-position: center;
+	background-size:cover;
+	background-attachment: fixed;
+	
+}
+.fixed-top {
+ 
+}
+
+
+/*--banner-container h1,p>Responsiv desing & css use start here--*/
+.banner-container{
+	height: 95vh;
+}
+.banner-container h1{
+	font-size: 60px;
+	color: #0F1F14;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-bottom:2%;
+}
+.banner-container p{
+	color: #0D1510;
+	font-size: 19px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin: 0 23%;
+	margin-bottom: 25px;
+}
+/*--nav-link>css use start here--*/
+.nav-link{
+	margin: 10px;
+	font-size: 15px;
+	border-radius: 5px;
+	transition: 2s;
+}
+.nav-link:hover,ul li.current .nav-link{
+	background-color: #c5d7bd;
+	transform: scale(1.1);
+}
+/*--logo img>css use start here--*/
+#logo img{
+	height: 80px;
+	width: 80px;
+	border-radius: 80%;
+}
+/*--navbar>css use start here--*/
+.navbar{
+	padding: 0 10%;
+}
+
+/*----------------------------------main use start here-----------------------*/
+/*------------------Product-section>css use start here---------------------*/
+#Product{
+	padding: 3% 10%;
+	background-color:#FFFFFF;
+}
+/*--section-title h2>css use start here--*/
+.section-title h2{
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+/*--basic-desc3Css p>css use start here--*/
+.basic-desc3Css{
+	margin-top: 10px;
+}
+.basic-desc3Css p{
+	text-align: justify;
+	padding: 0 22%;
+	font-weight: bold;
+}
+/*-------------------About Us-section>css use start here-----------------------*/
+#About-Us{
+	padding: 3% 10%;
+	background-color:#F0F0F0;
+}
+/*--basic-2W h3,p>css use start here--*/
+.basic-2W{
+	margin: 10% 10%; 
+}
+.basic-2W h3{
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 40px;
+}
+.basic-2W p{
+	font-weight: bold;
+	text-align: justify;
+}
+/*--imgDesing>Responsive-desing css use start here--*/
+.imgDesing{
+	margin: 6% 18%;
+}
+.imgDesing img{
+	height: 180px;
+	width: auto;
+}
+/*-------------------JonOto-section>css use start here-----------------------*/
+#JonOto-section{
+	padding: 1% 10%;
+	background-color: #FFFFFF;
+}
+/*--imgTag img>Responsive css use start here--*/
+.imgTag img{
+	height: 40%;
+	width: 40%;
+	border-radius: 50%;
+	margin:10% 40%;
+}
+/*--twoTag>Responsive css use start here--*/
+.twoTag{
+	margin: 15% 30% 0 -10%;
+}
+/*--carousel-control-prev-icon>css use start here--*/
+.carousel-control-prev-icon{
+	background-color: #060606;
+	color: red;
+}
+/*--carousel-control-next-icon>css use start here--*/
+.carousel-control-next-icon{
+	background-color: #060606;
+}
+/*-------------------contactWithF-section>css use start here-----------------------*/
+/*#contactWithF{
+
+}*/
+/*--formInp>Responsive css use start here--*/
+.formInp {
+	background-color: #43CB83;
+	height:80px;
+	width: auto;
+	padding: 1.70% 0 0 35%;
+}
+/*--form-control>css use start here--*/
+.form-control {
+	background-color: #46C985;
+	border: solid 1px #e8f0e8;
+}
+/*--contactInfor>css use start here--*/
+.contactInfor{
+	padding: 2% 7%;
+}
+/*--contaWrit>css use start here--*/
+.contaWrit{
+	text-align: justify;
+	padding-right: 10px;
+}
+/*--li>css use start here--*/
+li{
+	list-style-type: none;
+}
+/*--ul a>css use start here--*/
+ul a{
+	color :#0b0a0a;
+}
+/*--list li>css use start here--*/
+.list li{
+	padding-left: 6px;
+}
+/*-------------------footer-section>css use start here----------------------*/
+footer{
+	background-color: #2A2A2A;
+	height: 35px;
+	width: auto;
+}
+/*--copyright span>Responsive  use start here--*/
+.copyright span{
+	color: white;
+	color: #d0d0d0;
+	font-size: 10px;
+	margin-left:40%; 
+}
+/*-------------------footer-section>css use end here--------------------*/
+
+/*--------------scrolltop-button css use start here----------------------*/
+
+#back-to-top{
+	position: fixed;
+	background-color:#00917c;
+	color:#fff9b0;
+	right: 50px;
+	bottom: 50px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-radius:50%;
+	font-size: 25px;
+	display: none;
+}
+
+/*--------------scrolltop css use end here----------------------*/
+
+/*---------------------------------------------------------------------------
+						Responsive desing>use start her
+-----------------------------------------------------------------------------*/
+@media(max-width:768px){
+	/*--banner-container h1,p>Responsiv desing & css use start here--*/
+	.banner-container h1{
+		font-size:40px;
+	}
+	.banner-container p{
+		font-size: 13px;
+		margin: 0 5%;
+		margin-bottom: 40px;
+	}
+	/*---------------About Us-section>css use start here------------------*/
+		/*--imgDesing>Responsive-desing css use start here--*/
+		.imgDesing{
+			margin: 6% 10%;
+		}
+	/*---------------JonOto-section>css use start here------------------*/	
+		/*--imgTag img>Responsive css use start here--*/
+		.imgTag img{
+			height: 40%;
+			width: 40%;
+			border-radius: 50%;
+			margin:30% 30% -10% 30%;
+		}
+		/*--twoTag>Responsive css use start here--*/
+		.twoTag{
+			margin: 20% 5%;
+		}
+	/*-------------contactWithF-section>css use start here--------------*/
+		/*--formInp>Responsive css use start here--*/
+		.formInp {
+			padding: 5% 0 0 6%;
+		}
+		/*--formInp button>Responsive  use start here--*/
+		.formInp button{
+			margin-left: 10px;
+		}
+	/*-------------------footer-section>css use start here----------------------*/
+		/*--copyright span>Responsive  use start here--*/
+		.copyright span{
+			margin-left:31%; 
+		}
+
+		
+}
+/*---------------------------------------------------------------------------
+						Responsive desing>use end her
+-----------------------------------------------------------------------------*/
